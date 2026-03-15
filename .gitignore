@@ -30,6 +30,7 @@ data/output/*
 # Large generated files
 *.csv
 *.txt
+!requirements.txt
 
 # Python build artifacts
 build/
