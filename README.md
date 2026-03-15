@@ -1,5 +1,10 @@
 # Phishing URL Detection
 
+Machine learning pipeline for phishing URL detection using lexical and structural features.
+
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 ## Overview
 This project implements a machine learning pipeline for phishing URL detection based on lexical and structural features extracted directly from URLs. The objective is to distinguish phishing URLs from benign URLs without relying on HTML or page-content analysis.
 
@@ -38,6 +43,29 @@ src/
 notebooks/
 └── eda.ipynb
 ```
+
+## Reproducibility / Quick start
+
+Clone the repository
+
+git clone https://github.com/<antmark17>/phishing-url-detection.git
+cd phishing-url-detection
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Clean the raw datasets
+
+python src/clean_urls.py
+
+Build the feature dataset
+
+python src/dataset_builder.py
+
+Run the exploratory analysis and model training
+
+open notebooks/eda.ipynb
 
 ## Dataset preparation
 Two classes were built:
