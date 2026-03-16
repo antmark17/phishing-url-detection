@@ -48,7 +48,7 @@ notebooks/
 
 Clone the repository
 
-git clone https://github.com/<antmark17>/phishing-url-detection.git
+git clone https://github.com/antmark17/phishing-url-detection.git
 cd phishing-url-detection
 
 Install dependencies
